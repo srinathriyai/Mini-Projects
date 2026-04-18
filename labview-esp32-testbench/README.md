@@ -14,6 +14,13 @@ everything step by step to actually understand how it works.
 A working test bench system that streams live sensor data from an ESP32 microcontroller into LabVIEW over USB serial, processes it in real time, 
 validates it against configurable limits, and logs everything to a CSV file.
 
+### ScreenShots
+
+![Live View](screenshots/live_view.png)
+![Stats](screenshots/stats.png)
+![Test Results](screenshots/test_results.png)
+![Dashboard](screenshots/dashboard.png)
+
 ## What I learned
 
 - **Data acquisition** : reading serial CSV data from ESP32 using VISA in LabVIEW, parsing it into separate channels
